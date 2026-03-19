@@ -323,7 +323,7 @@ async function pattern_07() {
 // pattern_07();
 
 /**
- * Question 8: Batch Processing with StringOutputParser and Concurrency Control
+ * ✅ Question 8: Batch Processing with StringOutputParser and Concurrency Control
  */
 async function pattern_08() {
   console.time("⏳ Execution Time:");
@@ -390,7 +390,7 @@ async function pattern_08() {
 // pattern_08();
 
 /**
- * Question 9: Dynamic Prompt Selection with StringOutputParser and RunnableBranch
+ * ✅ Question 9: Dynamic Prompt Selection with StringOutputParser and RunnableBranch
  * Problem Description: You're building a multi-mode writing assistant. Depending on the mode field in the input ("formal", "casual", or "technical"), a different prompt template should be selected before passing to the LLM and then StringOutputParser.
  */
 async function pattern_09() {
